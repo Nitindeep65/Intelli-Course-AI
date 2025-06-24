@@ -45,20 +45,12 @@ export default function Navbar() {
       {/* Mobile dropdown */}
       {menuOpen && (
         <div className="md:hidden px-6 pb-4 bg-white dark:bg-gray-900 transition">
-         <Link href="/signup" onClick={() => setMenuOpen(false)}>
+         <Link href="/login" onClick={() => setMenuOpen(false)}>
   <span className="block py-2 text-sm text-gray-800 dark:text-gray-100">
-    Sign Up
+    Log In
   </span>
 </Link>
-
-          <Link
-            href="/signup"
-            onClick={() => setMenuOpen(false)}
-            className="block py-2 text-sm text-gray-800 dark:text-gray-100"
-          >
-            Sign Up
-          </Link>
-        </div>
+</div>
       )}
     </nav>
   );

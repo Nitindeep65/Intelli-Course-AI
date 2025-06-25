@@ -9,7 +9,7 @@ export async function POST(req: Request) {
   const { topic } = await req.json();
 
   const prompt = `
-Generate 5 multiple-choice quiz questions about "${topic}".
+Generate 10 multiple-choice quiz questions about "${topic}".
 Each question should have 4 options and one correct answer.
 Respond in **pure JSON** format (no markdown):
 

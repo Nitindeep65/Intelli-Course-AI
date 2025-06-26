@@ -32,7 +32,7 @@ const features = [
     icon: <MessagesSquare className="w-5 h-5" />,
     title: "AI Tutor Chat",
     description: "Get instant help",
-    link: "/dashboard/tutor",
+    link: "/features/tutor",
     color: "text-yellow-500",
     bgColor: "bg-yellow-50 dark:bg-yellow-900/20",
     category: "learning"
@@ -109,7 +109,7 @@ export default function Sidebar({
 
   useEffect(() => {
     onClose(); // Close sidebar on route change (mobile)
-  }, [pathname]);
+  }, [onClose, pathname]);
 
   const isActiveRoute = (link: string) =>
     pathname === link || pathname.startsWith(link);

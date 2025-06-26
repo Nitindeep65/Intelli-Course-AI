@@ -29,7 +29,7 @@ export default function Page() {
           </p>
           <div className="mt-8">
             <a
-              href="/features"
+              href="/explore-features"
               className="inline-block px-6 py-3 text-base font-semibold rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white shadow-lg hover:scale-105 transition-transform duration-300"
             >
               Explore Features

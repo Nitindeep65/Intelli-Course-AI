@@ -1,8 +1,7 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   images: {
-    domains: ["lh3.googleusercontent.com"], // ✅ Google avatar host
+    domains: ["lh3.googleusercontent.com"], // For Google avatars
   },
 };
 

@@ -38,7 +38,7 @@
     "next-env.d.ts",
     "types/next-auth.d.ts",
     ".next/types/**/*.ts"
-  ],
+, "src/components/Sidebar.tsx"  ],
   "exclude": [
     "node_modules"
   ]

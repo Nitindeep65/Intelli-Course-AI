@@ -109,7 +109,7 @@ export default function Sidebar({
 
   useEffect(() => {
     onClose(); // Close sidebar on route change (mobile)
-  }, [onClose, pathname]);
+  }, [pathname]);
 
   const isActiveRoute = (link: string) =>
     pathname === link || pathname.startsWith(link);
